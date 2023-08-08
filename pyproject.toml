@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mfcgui"
+version = "0.1.0"
+description = "A simple GUI for the control MCFs."
+authors = ["thaeber <40823270+thaeber@users.noreply.github.com>"]
+license = "GPL3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyqt6 = "^6.5.2"
+click = "^8.1.6"
+pydantic = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
